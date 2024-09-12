@@ -1,0 +1,329 @@
+
+   .ProductDetails {
+    background-color: rgb(255, 255, 255);
+    width: 100vw;
+    max-width: 100%;
+    padding: 6rem 3rem;
+    box-sizing: border-box;
+    display: flex;
+    gap: 3rem;
+  }
+.ProductDetails > div {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
+    box-sizing: border-box;
+    border: 1px solid white;
+  }
+  .ProductDetails > div:first-child{
+    width: 50%;
+    
+    overflow: hidden;
+  }
+  .ProductDetails > div:last-child {
+    align-items: flex-start;
+  }
+  .CarouselImage {
+    width: 100%;
+    height: 500px; 
+    object-fit: cover; 
+  }
+  .detailsBlock-1 > h2 {
+    color: rgb(54, 54, 54);
+    font-size: 3rem;
+    font-weight: 600;
+    
+  }
+  .detailsBlock-1 > p {
+    color: rgba(54, 54, 54, 0.582);
+    font-size: 0.8rem;
+    font-weight: 200;
+  }
+  .detailsBlock-2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    width: 70%;
+    padding: 1rem 0;
+  }
+  .detailsBlock-2-span {
+    font-weight: 200;
+    font-size: 1rem;
+    color: rgba(0, 0, 0, 0.699);
+  }
+  .detailsBlock-3 {
+    width: 70%;
+  }
+  .detailsBlock-3 > h1 {
+    color: rgba(17, 17, 17, 0.795);
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin: 1vmax 0;
+  }
+  .detailsBlock-3-1 {
+    display: flex;
+    align-items: center;
+  }
+  .detailsBlock-3-1-1 > button {
+    border: none;
+    background-color: rgba(0, 0, 0, 0.616);
+    padding: 0.2rem 0.7rem;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+  }
+  .detailsBlock-3-1-1 > button:hover {
+    background-color: rgba(0, 0, 0, 0.767);
+  }
+  .detailsBlock-3-1-1 > input {
+    border: none;
+    padding: 0.6rem;
+    width: 3rem;
+    text-align: center;
+    outline: none;
+    font-weight: 400;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.74);
+  }
+  
+  .detailsBlock-3-1 > button:last-child {
+    border: none;
+    cursor: pointer;
+    color: white;
+    transition: all 0.5s;
+    background-color: tomato;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem;
+    outline: none;
+  }
+  
+  .detailsBlock-3-1 > button:last-child:hover {
+    background-color: rgb(214, 84, 61);
+  }
+  
+  .detailsBlock-3 > p {
+    border-top: 1px solid rgba(0, 0, 0, 0.205);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.205);
+    padding: 1rem 0;
+    color: rgba(0, 0, 0, 0.651);
+    font-weight: 400;
+    font-size:1rem;
+    margin: 1vmax 0;
+  }
+  
+  .detailsBlock-4 {
+    color: rgba(0, 0, 0, 0.897);
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
+  
+  .detailsBlock-4 > p {
+    color: rgba(0, 0, 0, 0.534);
+    font-size: 1rem;
+    font-weight: 300;
+  }
+  
+  .submitReview {
+    border: none;
+    background-color: tomato;
+    font-weight: 500;
+    font-size: 0.8rem;
+    border-radius: 20px;
+    padding: 0.5rem 1.5rem;
+    color: white;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+  }
+  .submitReview:hover {
+    background-color: rgb(197, 68, 45);
+    transform: scale(1.1);
+  }
+  .submitDialog{
+    display: flex;
+    flex-direction: column;
+  }
+  .submitDialogTextArea{
+    outline: none;
+    margin: 1rem 0;
+    border: 1px solid rgba(0, 0, 0, 0.082);
+    padding: 1rem;
+    font-weight: 300;
+    font-size: 1rem;
+  }
+.review-heading{
+  color:#000000be;
+  font-size: 2rem;
+  font-weight: 500;
+  text-align: center;
+  border-bottom: 1px solid rgba(0,0,0,0.226);
+  margin: auto;
+  width: 200px;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+.review-card{
+  box-shadow: 0 0 5px rgba(0,0,0,0.226);
+  border: 1px solid rgba(56,56,56,0.116);
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex: none;
+  margin: 1rem;
+  padding:1rem; 
+}
+.review-card img{
+width: 10%;
+}
+.review-card p{
+  font-weight: 500;
+  font-size: 1rem;
+  color: rgba(0,0,0,0.836);
+  margin-bottom: 0;
+}
+.reviewCardSpan{
+  color: rgba(0,0,0,0.448);
+  font-weight: 300;
+  font-size: 1rem;
+}
+.noreviews{
+  font-size:1.3rem ;
+  font-weight:400;
+  text-align: center;
+  color: rgba(0,0,0,0.548);
+}
+.reviews{
+  display: flex;
+  overflow: auto;
+}
+  @media(max-width:910px){
+    .detailsBlock-3-1 > button:last-child {
+      font-size: 0.8rem;
+      padding: 0.5rem 1rem;
+      margin: 0.7rem;
+    }
+  }
+  @media(max-width:1029px){
+    .ProductDetails > div:first-child{
+      width: 80%;
+    }
+    .CarouselImage {
+      height: 500px; 
+    }
+    .ProductDetails {
+      gap: 1rem;
+    }
+  }
+  @media(max-width:836px){
+    .detailsBlock-3-1{
+      display: block;
+    }
+    .detailsBlock-3-1 > button:last-child {
+      margin: 0.7rem 0;
+    }
+    .ProductDetails > div:first-child{
+      width: 100%;
+    }
+    .CarouselImage {
+     
+      height: 400px; 
+     
+    }
+    .detailsBlock-1 > h2 {
+      font-size: 2rem;
+      
+    }
+    .detailsBlock-3 > h1 {
+      
+      font-size: 1.4rem;
+      margin: 1rem 0;
+    }
+    .review-card{
+    
+      width: 50%;
+      
+      margin: 1rem;
+      padding:0.6rem; 
+    }
+    .review-card img{
+    width: 14%;
+    }
+
+    .detailsBlock-2 {
+      width: 80%;
+    }
+
+    .detailsBlock-3 {
+      width: 80%;
+    }
+
+  }
+  @media(max-width:668px){
+    .ProductDetails {
+      flex-direction: column;
+      padding:3rem 1rem
+    }
+    .ProductDetails > div:first-child{
+      width: 100%;
+      align-items: center;
+      justify-content: center;
+    }
+    .CarouselImage {
+      height: 500px; 
+     
+    }
+    .reviews{
+      flex-direction: column;
+      align-items: center;
+    }
+    .review-card p{
+      font-size: 0.8rem;
+    }
+    .review-card{
+      width: 80%;
+    }
+    .review-card img{
+      width: 15%;
+    }
+    .review-card span{
+      font-size: 0.8rem;
+    }
+    .review-heading{
+      font-size: 1.4rem;
+    }
+  }
+  @media(max-width:400px){
+    .ProductDetails {
+      flex-direction: column;
+    }
+    .detailsBlock-1 > h2 {
+      font-size: 1.6rem;
+    }
+    .detailsBlock-3 > h1 {
+      font-size: 1.2rem;
+    }
+    .detailsBlock-2-span {
+      font-size: 0.8rem;
+    }
+    .ProductDetails {
+      padding: 3rem 0.5rem;
+    }
+    .review-card{
+      width: 80%;
+      margin: 0.5rem;
+      padding:0.5rem; 
+    }
+    .review-heading{
+      font-size: 1.2rem;
+    }
+    
+  }

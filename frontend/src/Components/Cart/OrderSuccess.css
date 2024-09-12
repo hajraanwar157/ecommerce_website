@@ -1,0 +1,67 @@
+.order-success{
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    padding: 7rem;
+}
+.order-success svg{
+    font-size: 6rem;
+    color: tomato;
+}
+.order-success p{
+    margin-bottom: 0;
+    font-size: 2rem;
+
+}
+.order-success a{
+    background-color: rgb(51, 51, 51);
+    color: white;
+    font-weight: 400;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 2rem;
+    margin: 1rem;
+}
+@media(max-width:600px){
+    .order-success{
+        height: unset;
+        padding: 4rem 2rem;
+    }
+    .order-success svg{
+        font-size: 4rem;
+        
+    }
+    .order-success p{
+        font-size: 1.3rem;
+    
+    }
+    .order-success a{
+       
+        font-size: 0.89rem;
+        
+        padding: 0.7rem 1.7rem;
+        
+    }
+}
+@media(max-width:420px){
+    .order-success svg{
+        font-size: 2.5rem !important;
+        
+    }
+    .order-success p{
+        font-size: 1rem !important;
+    
+    }
+    .order-success a{
+       
+        font-size: 0.8rem;
+        
+        padding: 0.7rem 1.4rem;
+        
+    }
+}

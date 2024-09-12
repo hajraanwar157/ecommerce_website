@@ -1,0 +1,62 @@
+.productReviewsContainer {
+    width: 100%;
+    min-width: 300px;
+    box-sizing: border-box;
+    background-color: rgb(255, 255, 255);
+    border-left: 1px solid rgba(0, 0, 0, 0.158);
+    height: 100vh;
+  }
+  
+  .productReviewsForm {
+    width: 25rem;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    padding: 3vmax;
+    background-color: white;
+  }
+  
+  .productReviewsFormHeading {
+    color: rgba(0, 0, 0, 0.733);
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: center;
+  }
+  
+  .productReviewsForm > div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: 2rem;
+  }
+  .productReviewsForm > div > input {
+    padding: 1rem 3rem;
+    padding-right: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    font-size: 0.9rem;
+    font-weight: 400;
+    outline: none;
+  }
+
+  .productReviewsForm > div > svg {
+    position: absolute;
+    transform: translateX(1vmax);
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.623);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .productReviewsContainer {
+      border-left: none;
+      border-top: 1px solid rgba(0, 0, 0, 0.158);
+    }
+    .productReviewsForm {
+        width: 20rem;
+      }
+  }
+  

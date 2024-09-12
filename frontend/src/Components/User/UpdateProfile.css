@@ -1,0 +1,155 @@
+.updateProfile-container{
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(231,231,231);
+    position: fixed;
+    top: 0%;
+    left: 0;
+}
+.updateProfile-box{
+    background-color: white;
+    width: 25vw;
+    height: 70vh;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow: 0 0 5px rgba(15,15,15,0.26);
+}
+.updateProfile-box h2{
+    text-align: center;
+font-size: 1.5rem;
+font-weight: 400;
+color: rgba(0,0,0,0.664);
+padding: 1rem 0.2rem;
+border-bottom: 1px solid rgba(0,0,0,0.216);
+margin: auto;
+width: 50%;
+}
+.updateProfile-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: auto;
+    padding: 1rem;
+    height: 70%;
+    transition: all 0.5s;
+
+}
+
+.updateProfile-form> div{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.updateProfile-form > div > input{
+    padding: 0.7rem 0.5rem;
+    padding-left:2.5rem ;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0,0,0,0.267);
+    border-radius: 4px;
+    outline: none;
+    font-weight: 300;
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+.updateProfile-form > div > svg{
+    position: absolute;
+    transform: translateX(0.5rem) translateY(-10px);
+    font-size: 1.5rem;
+    color: rgba(0,0,0,0.623);
+}
+#updateProfileImage img{
+border-radius: 100%;
+width: 20%;
+transform: translateY(-10px);
+margin: 1rem;
+}
+#updateProfileImage input{
+    display: flex;
+    padding: 0;
+    }
+    #updateProfileImage input::file-selector-button{
+        cursor: pointer;
+        width: 100%;
+        z-index: 3;
+        height: 5vh;
+        border: none;
+        margin: 0%;
+        font-weight: 300;
+        font-size: 1rem;
+        transition: all 0.5s;
+        padding: 0 0.5rem;
+        color:rgba(0,0,0,0.623);
+        background-color: rgb(255,255,255);
+        }
+        #updateProfileImage input::file-selector-button:hover{
+            background-color: rgb(235,235,235);
+        }
+.updateProfile-btn{
+border: none;
+background-color: tomato;
+color: white;
+width: 100%;
+padding: 0.5rem;
+font-weight: 300;
+font-size: 1rem;
+cursor: pointer;
+border-radius: 4px;
+transition: all 0.5s;
+outline: none;
+box-shadow: 0 2px 5px rgba(0,0,0,0.216);
+}
+.updateProfile-btn:hover{
+    background-color: rgb(179,66,46);
+}
+
+@media(max-width:1030px){
+    .updateProfile-box{
+        width: 40%;
+        height: 70%;
+    } 
+}
+@media(max-width:854px){
+    .updateProfile-box{
+        width: 50%;
+        height: 70%;
+    } 
+}
+@media(max-width:640px){
+    .updateProfile-container{
+        background-color: white;
+    }
+    .updateProfile-box{
+        width: 75vw;
+        height: 95vh;
+        box-shadow: none;
+        margin-top: 160px;
+    }
+    .updateProfile-box h2{
+        padding: 1rem 0;
+    }
+.updateProfile-form{
+    padding: 3rem 1rem;
+}
+
+.updateProfile-form > div > input{
+    padding: 1rem 0.5rem;
+    padding-left: 2.5rem;
+}
+
+.updateProfile-form > div > svg{
+    font-size: 1.7rem;
+}
+
+}
+@media(max-width:415px){
+    .updateProfile-box h2{
+        font-size: 1.2rem;
+    }
+}

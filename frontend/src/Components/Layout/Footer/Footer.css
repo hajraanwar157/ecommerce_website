@@ -1,0 +1,111 @@
+footer{
+    margin-top: 10vmax;
+    padding: 2vmax;
+    background-color: rgb(34,33,33);
+    color: white;
+    display: flex;
+    align-items: center;
+}
+.left-footer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.left-footer h4{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+}
+.left-footer p{
+    text-align: center;
+    font-size: 0.9rem;
+}
+.left-footer img{
+    width: 50%;
+    cursor: pointer;
+    margin: 10px;
+}
+.mid-footer{
+    width: 60%;
+    text-align: center;
+}
+.mid-footer h1{
+    font-size: 2.5rem;
+    color: #eb4034;
+    margin-bottom: 2rem;
+}
+.mid-footer p{
+    max-width: 60%;
+    margin: 1rem auto;
+    font-size: 0.9rem;
+}
+.right-footer{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.right-footer h4{
+    text-decoration: underline;
+    margin-bottom: 2rem;
+    font-size: 1.3rem;
+}
+.right-footer a{
+    margin-bottom: 1.4rem;
+    font-size: 0.9rem;
+    transition: 0.5s ease-in-out;
+}
+.right-footer a:hover{
+    color: #eb4034;
+}
+@media(max-width:880px){
+    .left-footer h4{
+        margin-bottom: 0.8rem;
+        font-size: 0.9rem;
+    }
+    .left-footer p{
+        font-size: 0.8rem;
+    }
+    .left-footer img{
+        width: 70%;
+    }
+    .mid-footer h1{
+        font-size: 2rem;
+    }
+    .mid-footer p{
+        font-size: 0.8rem;
+    }
+    .right-footer h4{
+        font-size: 1rem;
+    }
+    .right-footer a{
+        font-size: 0.8rem;
+    }
+}
+@media(max-width:500px){
+    .left-footer h4{
+        margin-bottom: 0.7rem;
+        font-size: 0.7rem;
+    }
+    .left-footer p{
+        font-size: 0.6rem;
+    }
+    .left-footer img{
+        width: 80%;
+        margin: 5px;
+    }
+    .mid-footer h1{
+        font-size: 1.5rem;
+        margin-bottom: 1.3rem;
+    }
+    .mid-footer p{
+        font-size: 0.6rem;
+    }
+    .right-footer h4{
+        font-size: 0.8rem;
+    }
+    .right-footer a{
+        font-size: 0.6rem;
+        margin-bottom: 1.3rem;
+    }
+}

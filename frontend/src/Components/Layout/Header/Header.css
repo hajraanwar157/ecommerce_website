@@ -1,0 +1,53 @@
+
+.user-option{
+    display: inline-block;
+}
+.speeddial{
+    position: absolute;
+    top:20px;
+    right: 10px;
+}
+.speedDialIcon{
+    width: 56px;
+    height: 56px;
+    border-radius: 100% ;
+}
+.menuBurger{
+    padding: 0;
+    overflow: visible;
+}
+
+@media (max-width:800px){
+    .logoReactNavbar {
+        width: 150% !important;
+        padding-left: 50px;
+    }
+    .linksReactNavbar {
+        font-size: 0.7rem !important;
+    }
+
+}
+@media (max-width:600px){
+    .speeddial{
+        position: absolute;
+        top:5px;
+        right: 5px;
+    }
+   
+}
+@media (max-width:500px){
+    .logoReactNavbar {
+        width: 150% !important;
+        padding-left: 30px;
+    }
+
+}
+@media (max-width:390px){
+    .logoReactNavbar {
+        width: 170% !important;
+    }
+
+}
+
+
+

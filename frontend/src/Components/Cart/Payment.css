@@ -1,0 +1,85 @@
+.payment-container {
+    display: grid;
+    place-items: center;
+    background-color: rgb(255, 255, 255);
+    height: 65vh;
+    margin: 2rem;
+  }
+  
+  .payment-form {
+    width: 29%;
+    height: 100%;
+  }
+  
+  .payment-form > p {
+    margin-bottom: 0;
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.753);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.13);
+    padding: 0.7rem 0;
+    text-align: center;
+    width: 50%;
+    margin: auto;
+  }
+  
+  .payment-form> div {
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+  }
+  
+  .payment-input{
+    padding: 1rem 3rem;
+    padding-right: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid rgba(0, 0, 0, 0.267);
+    border-radius: 4px;
+    outline: none;
+  }
+  
+  .payment-form > div > svg {
+    position: absolute;
+    transform: translateX(1rem);
+    font-size: 1.5rem;
+    color: rgba(0, 0, 0, 0.623);
+  }
+  
+  .payment-btn {
+    border: none;
+    background-color: tomato;
+    color: white;
+    font-weight: 300;
+    font-size: 0.9rem;
+    width: 100%;
+    padding: 0.8rem;
+    cursor: pointer;
+    transition: all 0.5s;
+    outline: none;
+  }
+  
+  .payment-btn:hover {
+    background-color: rgb(179, 66, 46);
+  }
+  @media (max-width:900px){
+    .payment-form {
+        width: 45%;
+        height: 100%;
+      }
+      
+  }
+  @media (max-width:550px){
+    .payment-form {
+        width: 70%;
+        height: 100%;
+      }
+      
+  }
+  @media (max-width:400px){
+    .payment-form {
+        width: 80%;
+        height: 100%;
+      }
+      
+  }

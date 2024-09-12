@@ -1,0 +1,143 @@
+.profile-container{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    max-width: 100%;
+    background-color: white;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+}
+.profile-container > div{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    max-width: 100%;
+}
+.first-box h1{
+color: rgba(0, 0, 0, 0.555);
+font-size: 2rem;
+font-weight: 500;
+transform: translateX(-10vmax) translateY(-2vmax);
+}
+.first-box img{
+
+   object-fit: cover;
+   
+   width: 250px;
+  height: 250px;
+  border-radius: 50%;
+   transition: all 0.5s;
+    }
+.first-box img:hover{
+        transform: scale(1.05);
+         }
+         .first-box a{
+            background-color: tomato;
+            font-size: 1rem;
+            font-weight: 400;
+            color: white;
+            margin: 2rem;
+            text-align: center;
+            width: 30%;
+            padding: 0.7rem;
+   transition: all 0.5s;
+             }.first-box a:hover{
+                background-color: rgb(204, 78, 56);
+             }
+             .profile-container > div:last-child{
+                justify-content: space-evenly;
+                padding: 5rem 2rem;
+                
+                box-sizing: border-box;
+                align-items: start;
+             }
+.second-box h4{
+    color: black;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+.second-box p{
+    color: rgba(0, 0, 0, 0.418);
+    font-size: 1rem;
+    font-weight: 400;
+    margin: 0.2rem;
+}
+.link-box{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.link-box a{
+    background-color: rgb(68, 68, 68);
+    color: white;
+    font-size: 1rem;
+    font-weight: 400;
+    padding: 0.8rem;
+    text-align: center;
+    margin: 1rem;
+    transition: all 0.5s;
+}
+.link-box a:hover{
+    background-color: rgb(31, 31, 31);
+    
+}
+@media (max-width:730px){
+    .first-box img{
+        width: 190px;
+        height: 190px;
+    }
+    .first-box a{
+        padding: 0.4rem 0.2rem;
+    }
+
+}
+@media (max-width:680px){
+    .first-box h1{
+        font-size: 1.5rem;
+        }
+        
+}
+@media (max-width:570px){
+ .first-box h1{
+        font-size: 1.3rem;
+        transform: translateX(-15vmax) translateY(2vmax);
+        }
+
+ .profile-container{
+flex-direction: column;
+}
+.profile-container > div:last-child{
+padding: 1rem;  
+align-items: center;
+text-align: center;
+}
+
+    .first-box img{
+        width: 125px;
+        height: 125px;
+    }
+ .first-box a{
+ font-size: 0.9rem;
+padding: 0.7rem;
+}
+.link-box a{
+    margin: 0.8rem 3rem;
+    padding: 0.6rem;
+    font-size: 0.9rem;
+}
+.second-box h4{
+
+    font-size: 1rem;
+ 
+}
+.second-box p{
+    
+    font-size: 0.9rem;
+   
+    /* margin: 0.2rem; */
+}
+}

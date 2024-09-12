@@ -1,0 +1,194 @@
+.confirm-order-page{
+    background-color: white;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 6fr 3fr;
+}
+.confirm-order-page > div:last-child{
+    border-left: 1px solid rgba(0, 0, 0, 0.247);
+}
+.confirm-shipping-area{
+    padding: 2rem;
+    padding-bottom: 0%;
+}
+.confirm-shipping-area > p{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.confirm-shipping-area-box,
+.confirm-cartitems-cntainer{
+margin: 1rem;
+}
+.confirm-shipping-area-box > div{
+    display: flex;
+    margin: 1rem 0;
+}
+.confirm-shipping-area-box p{
+    color: black;
+    margin-bottom: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
+.confirm-shipping-area-box span{
+    color: #575757;
+    font-weight: 200;
+    font-size: 1rem;
+    margin: 0 1rem;
+}
+.confirm-cart-items > p{
+    margin-bottom: 0;
+    font-size: 1.5rem;
+    font-weight: 400;
+}
+.confirm-cart-items{
+    padding: 2rem;
+}
+.confirm-cartItems-cntainer{
+    max-height: 25rem;
+    overflow-y: auto;
+}
+.confirm-cartItems-cntainer > div{
+    font-weight: 400;
+    font-size: 1rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    align-items: center;
+}
+.confirm-cartItems-cntainer img{
+    width: 12%;
+}
+.confirm-cartItems-cntainer a{
+    color: #575757;
+    width: 60%;
+    margin: 0.4rem;
+}
+.confirm-cartItems-cntainer span{
+    color: #4f4d4d;
+    font-weight: 200;
+    font-size: 1rem;
+}
+.order-summary{
+    padding: 4rem;
+}
+.order-summary > p{
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.247);
+    box-sizing: border-box;
+    font-weight: 400;
+    font-size: 1.5rem;
+    margin: auto;
+    margin-bottom: 0;
+    width: 100%;
+    padding: 1rem;
+}
+.order-summary > div > div{
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+    font-weight: 300;
+    font-size: 1rem;
+}
+.order-summary span{
+    color: rgba(0, 0, 0, 0.692);
+}
+.order-summary-total{
+    display: flex;
+    justify-content: space-between;
+    font-weight: 300;
+    font-size: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.363);
+    padding: 1rem 0;
+}
+.order-summary button{
+    background-color: tomato;
+    transform: all 0.5s;
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    width: 100%;
+    cursor: pointer;
+    padding: 0.8rem;
+    border: none;
+    margin: auto;
+}
+.order-summary button:hover{
+    background-color: rgb(192, 71, 50);
+}
+
+@media (max-width:950px){
+    .order-summary{
+        padding: 1rem;
+    }
+}
+
+@media (max-width:625px){
+    .order-summary{
+        padding: 4rem 2rem;
+    }
+    .confirm-order-page{
+    
+        height: unset;
+        grid-template-columns: 1fr;
+    }
+    .confirm-order-page > div:last-child{
+        border-left: 0;
+        border-top: 1px solid rgba(0, 0, 0, 0.247);
+    }
+    .confirm-cartItems-cntainer > div{
+       
+        margin: 0.5rem 0;
+        
+    }
+    .confirm-cart-items{
+        padding: 1rem;
+    }
+    .confirm-cartItems-cntainer a{
+        width: 60%;
+        margin: 0.2rem;
+        font-size: 0.75rem;
+    }
+    .confirm-cartItems-cntainer span{
+       
+        font-size: 0.75rem;
+    }
+    .confirm-cartItems-cntainer img{
+        width: 17%;
+    }
+    .confirm-shipping-area{
+        padding: 3rem 1rem;
+        padding-bottom: 0;
+        
+    }
+    .confirm-shipping-area-box p{
+       
+        font-size: 0.89rem;
+      
+    }
+    .confirm-shipping-area-box span{
+      
+        font-size: 0.89rem;
+        margin: 0 0.5rem;
+    }
+    .order-summary > div > div{
+       
+      
+        font-size: 0.89rem;
+    }
+    
+    .order-summary-total{
+        
+        font-size: 0.89rem;
+       
+    }
+    .order-summary button{
+        
+ 
+        
+        width: 100%;
+       margin: auto;
+        padding: 0.8rem;
+        
+    }
+}

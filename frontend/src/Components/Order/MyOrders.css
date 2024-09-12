@@ -1,0 +1,80 @@
+.MuiTablePagination-selectLabel{
+    display: none !important;
+}
+.MuiTablePagination-input {
+    display: none !important; 
+}
+p{
+    margin-bottom: 0 !important;
+}
+.MuiDataGrid-container--top [role=row]{
+    background-color: rgb(235, 235, 235) !important;
+}
+.myorders-page{
+    width: 100vw;
+    max-width: 100%;
+    background-color: rgb(235, 235, 235);
+    padding: 0 7rem;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+#myorders-heading {
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    transition: all 0.5s;
+    background-color: rgb(44, 44, 44);
+  }
+  .myorders-table{
+    background-color: white;
+    
+  }
+  .myorders-table div {
+    font-weight: 300;
+    font-size: 0.8rem;
+    color: rgba(0, 0, 0, 0.678);
+    border: none;
+  }
+  
+  .myorders-table a {
+    color: rgba(0, 0, 0, 0.527);
+    transition: all 0.5s;
+  }
+  .MuiDataGrid-columnHeader {
+    background-color: tomato;
+    padding: 1rem !important;
+  }
+  .MuiDataGrid-columnHeader div {
+    color: rgb(255, 255, 255);
+    font-size: 0.9rem !important;
+    font-weight: 500 !important;
+  }
+  .MuiDataGrid-iconSeparator {
+    display: none !important;
+  }
+  @media screen and (max-width: 600px) {
+    .myorders-page{
+      padding: 0;
+      height: 93vh;
+    }
+  
+    #myorders-heading {
+      padding: 4vw;
+    }
+
+  
+    .MuiDataGrid-columnHeader {
+      padding: 20px !important;
+    }
+  
+  
+  }
+    
